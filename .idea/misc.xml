@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/drawable/rounded_black_box.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/drawable/rounded_black_box_2.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/drawable/rounded_box.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/drawable/rounded_red_box.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/drawable/rounded_white_box.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/layout/food_item.xml" value="0.67" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/layout/food_single.xml" value="0.2015625" />
+        <entry key="..\:/Users/UserPC/AndroidStudioProjects/samvel_homework_lesson_11/app/src/main/res/layout/tasks_item.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

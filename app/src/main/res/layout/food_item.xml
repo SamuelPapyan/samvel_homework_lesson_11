@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_black_box"
+    >
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/food_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/twister"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/rounded_box"
+        android:scaleType="fitXY" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="iTwister"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/food_image"
+        android:layout_marginHorizontal="10dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="4000"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/food_name"
+        app:layout_constraintTop_toBottomOf="@+id/food_name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_valute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="AMD"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/food_price"
+        app:layout_constraintStart_toEndOf="@+id/food_price" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/food_valute"
+        app:layout_constraintEnd_toEndOf="@+id/food_name"
+        app:layout_constraintTop_toBottomOf="@+id/food_name"
+        android:src="@drawable/red_shop_cart"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/food_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="0"
+        android:visibility="gone"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
