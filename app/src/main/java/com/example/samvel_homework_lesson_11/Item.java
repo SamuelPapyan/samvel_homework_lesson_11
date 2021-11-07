@@ -8,6 +8,12 @@ public class Item {
 
     public static ArrayList<Item> getItems(){
         ArrayList<Item> items = new ArrayList<>();
+        items.add(new Item("Text 1", R.drawable.rounded_red_box));
+        items.add(new Item("Text 2", R.drawable.rounded_black_box_2));
+        items.add(new Item("Text 3", R.drawable.rounded_black_box_2));
+        items.add(new Item("Text 4", R.drawable.rounded_black_box_2));
+        items.add(new Item("Text 5", R.drawable.rounded_black_box_2));
+        items.add(new Item("Text 6", R.drawable.rounded_black_box_2));
         return items;
     }
 
