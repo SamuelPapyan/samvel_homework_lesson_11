@@ -22,7 +22,7 @@ public class SecondActivity extends AppCompatActivity {
         AppCompatTextView price_single = findViewById(R.id.food_price_single);
 
         name_single.setText(intent.getStringExtra("name"));
-        price_single.setText(Integer.toString(intent.getIntExtra("price",0)));
+        price_single.setText(intent.getStringExtra("price"));
         description.setText(intent.getStringExtra("description"));
         image.setImageResource(intent.getIntExtra("image",0));
         setContentView(R.layout.food_single);
