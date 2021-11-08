@@ -6,18 +6,18 @@ import java.util.List;
 public class Food {
     private static int instances = 0;
 
-    private int food_id;
-    private String food_name;
-    private String food_price;
+    private int foodId;
+    private String foodName;
+    private String foodPrice;
     private String description;
-    private int food_image;
+    private int foodImage;
 
-    public Food(String food_name, String food_price, String description, int food_image){
-        this.food_name = food_name;
-        this.food_price = food_price;
+    public Food(String foodName, String foodPrice, String description, int foodImage){
+        this.foodName = foodName;
+        this.foodPrice = foodPrice;
         this.description = description;
-        this.food_image = food_image;
-        this.food_id = instances++;
+        this.foodImage = foodImage;
+        this.foodId = instances++;
     }
 
     public static ArrayList<Food> getFoods(){
@@ -32,17 +32,17 @@ public class Food {
     public String getDescription() {
         return description;
     }
-    public int getFood_image() {
-        return food_image;
+    public int getFoodImage() {
+        return foodImage;
     }
-    public String getFood_name() {
-        return food_name;
+    public String getFoodName() {
+        return foodName;
     }
-    public String getFood_price() {
-        return food_price;
+    public String getFoodPrice() {
+        return foodPrice;
     }
 
-    public int getFood_id() {
-        return food_id;
+    public int getFoodId() {
+        return foodId;
     }
 }

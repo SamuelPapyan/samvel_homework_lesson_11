@@ -3,6 +3,9 @@ package com.example.samvel_homework_lesson_11;
 import java.util.ArrayList;
 
 public class Item {
+    private static int instances = 0;
+
+    private int itemId;
     private int color;
     private String text;
 
@@ -20,6 +23,7 @@ public class Item {
     public Item(String text, int color){
         this.text = text;
         this.color = color;
+        this.itemId = instances++;
     }
 
     public int getColor() {
@@ -30,5 +34,11 @@ public class Item {
         return text;
     }
 
+    public int getItemId() {
+        return itemId;
+    }
 
+    public void setColor(int color){
+        this.color = color;
+    }
 }

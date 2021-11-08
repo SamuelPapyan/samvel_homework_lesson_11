@@ -67,4 +67,10 @@
         android:text="0"
         android:visibility="gone"
         />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="0"
+        android:visibility="gone"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
